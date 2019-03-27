@@ -9,17 +9,12 @@ This repository showcase the following components:
 4. Hierarchical model
 5. Multilevel Hierarchical Model - with Regional & Sexual Difference
 
-Trial2
-
 ### Conventional approaches
 The two conventional alternatives to modeling radon exposure represent the two extremes of the bias-variance tradeoff:
 
 Complete pooling:
 Treat all individuals the same, and estimate a single intercept, pre-weaning rate and post-weaning rate.
 
-                                  𝑦𝑖∼Normal(𝛼+𝛽𝑥𝑖+𝜖𝑖),𝑟𝑡={preweaning_rate, postweaning_rate,if 𝑡≤𝑠if 𝑡>
-                                                           
 No pooling:
 Model intercept, pre-weaning rate and post-weaning rate for each individual independently.
 
-                                                            𝑦𝑖=𝛼𝑗[𝑖]+𝛽𝑥𝑖+𝜖𝑖   where 𝑗=1,…,n
