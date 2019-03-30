@@ -30,3 +30,5 @@ import seaborn as sns
 from matplotlib.ticker import FormatStrFormatter
 
 ```
+
+![alt text](https://raw.githubusercontent.com/YuenWaHo/pymc3_weaning/master/examples/posterior.png?token=Af9kMPIvdz2tQJP1x60zlKT-nZmca54zks5cnv-XwA%3D%3D "Posterior Distribution of Parameters")
