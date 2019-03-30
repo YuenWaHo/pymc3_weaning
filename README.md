@@ -1,13 +1,17 @@
 # Ontogenetic Dietary Shift with Bayesian Estimation in PyMC3
 
-This is an application of the Bayesian estimation on stable isotope data investigating the ontogenetic dietary shift in Indo-Pacific humpback dolphins using stable isotope data, using the PyMC3 package. The idea behind is that individual heterogeneity was commonly neglected and the whole population data was pooled together to perform modelling. In the real world, individual ontogenetic development can differ and progress at a different rate (i.e. the rate of diet shifting). The difference in dietary shifting is governed by a hyperparameter that overlook the individual developmental parameters - intercept (SIA level at birth), pre-weaning rate and post-weaning rate. 
+This is an application of the Bayesian estimation on stable isotope data investigating the ontogenetic dietary shift in Indo-Pacific humpback dolphins using stable isotope data, using the PyMC3 package. The idea behind is that individual heterogeneity was commonly neglected and the whole population data was often pooled together to perform modelling. In the real world, individual ontogenetic development can differ and progress at a different rate (i.e. the rate of dietary shifting). The individual difference in dietary shifting is distributed under hyperparameters that govern the population developmental parameters - intercept (SIA level at birth), pre-weaning rate and post-weaning rate. 
 
 This repository showcase the following components:
-1. Data clean up
+1. Data Pre-Processing
 2. Data Visualization
 3. Complete pooling
 4. Hierarchical model
 5. Multilevel Hierarchical Model - with Regional & Sexual Difference
+
+### Data Pre-processing
+
+
 
 ### Conventional approaches
 The two conventional alternatives to modeling radon exposure represent the two extremes of the bias-variance tradeoff:
