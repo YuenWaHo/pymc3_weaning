@@ -18,3 +18,15 @@ Treat all individuals the same, and estimate a single intercept, pre-weaning rat
 No pooling:
 Model intercept, pre-weaning rate and post-weaning rate for each individual independently.
 
+```python
+from IPython.core.pylabtools import figsize
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+import scipy.stats as stats
+import pymc3 as pm
+from pymc3 import forestplot
+import seaborn as sns
+from matplotlib.ticker import FormatStrFormatter
+
+```
