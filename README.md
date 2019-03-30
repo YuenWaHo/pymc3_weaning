@@ -18,10 +18,10 @@ Treat all individuals the same, and estimate a single intercept, pre-weaning rat
 No pooling:
 Model intercept, pre-weaning rate and post-weaning rate for each individual independently.
 
->```python
->    from IPython.core.pylabtools import figsize
->   import numpy as np
->   import pandas as pd
+>```
+>from IPython.core.pylabtools import figsize
+>import numpy as np
+>import pandas as pd
 >```
 
 ![alt text](https://raw.githubusercontent.com/YuenWaHo/pymc3_weaning/master/examples/posterior.png?token=Af9kMPIvdz2tQJP1x60zlKT-nZmca54zks5cnv-XwA%3D%3D "Posterior Distribution of Parameters")
